@@ -7,7 +7,7 @@ A Claude Code skill that helps you create deeply personalized spinner verbs draw
 Claude Code displays rotating "spinner verbs" while it's working (e.g., "Thinking...", "Processing..."). These can be customized in your `~/.claude/settings.json` file to show personalized messages that make you smile every time one scrolls by.
 
 Instead of generic messages, imagine seeing:
-- `Tadka-sizzling` (if you love Indian cooking)
+- `Maillard-reacting` (if you love cooking)
 - `GNU-Terry-Pratchetting` (if you're a Discworld fan)
 - `Rubber-duck-debugging` (if you're a developer)
 - `Sunday-pancake-making` (if that's your family tradition)
