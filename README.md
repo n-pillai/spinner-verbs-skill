@@ -54,20 +54,14 @@ The skill will guide you through an interactive interview process to create spin
 
 ## Example Verbs
 
-See `example-verbs.json` for a real-world example with 533+ verbs covering:
-- Federal Reserve & finance terminology
-- AI/ML engineering concepts
-- Indian culture and Kerala traditions
-- Cooking techniques (French, Indian, general)
-- Literature (Pratchett, Wodehouse, Le Guin, Tolkien, and more)
-- Classic films and British comedy
-- Parenting and family life
-- Bay Area culture
-- Philosophy (Stoicism, Buddhism, Japanese concepts)
-- Software engineering
-- Travel and exploration
-- Book club culture
-- And many more categories!
+See `example-verbs.json` for a starter set showing the variety possible:
+- Software engineering (`Yak-shaving`, `Rubber-duck-debugging`)
+- Cooking (`Mise-en-place-ing`, `Maillard-reacting`)
+- Literature (`GNU-Terry-Pratchetting`, `Jeeves-shimmering`, `Second-breakfasting`)
+- Philosophy (`Kintsugi-repairing`, `Wabi-sabi-accepting`)
+- Reading habits (`One-more-chapter-ing`, `Bookshop-browsing`, `Passage-bookmarking`)
+- Family traditions (`Sunday-pancake-making`)
+- Claude Code itself (`Claude-code-ing`, `Ship-then-iterating`)
 
 ## Quick Start (Using Example Verbs)
 
