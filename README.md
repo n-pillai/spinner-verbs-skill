@@ -21,7 +21,7 @@ Instead of generic messages, imagine seeing:
 mkdir -p ~/.claude/skills/spinner-verbs
 
 # Download the skill file
-curl -o ~/.claude/skills/spinner-verbs/SKILL.md https://raw.githubusercontent.com/n-pillai/spinner-verbs-skill/main/SKILL.md
+curl -o ~/.claude/skills/spinner-verbs/SKILL.md https://raw.githubusercontent.com/n-pillai/spinner-verbs-skill/master/SKILL.md
 ```
 
 **Windows (PowerShell):**
@@ -30,7 +30,7 @@ curl -o ~/.claude/skills/spinner-verbs/SKILL.md https://raw.githubusercontent.co
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\spinner-verbs"
 
 # Download the skill file
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/n-pillai/spinner-verbs-skill/main/SKILL.md" -OutFile "$env:USERPROFILE\.claude\skills\spinner-verbs\SKILL.md"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/n-pillai/spinner-verbs-skill/master/SKILL.md" -OutFile "$env:USERPROFILE\.claude\skills\spinner-verbs\SKILL.md"
 ```
 
 ### 2. Use the Skill
@@ -69,7 +69,7 @@ If you want to use the example verbs as a starting point:
 
 ```bash
 # Download the example verbs
-curl -o ~/nisha-spinner-verbs.json https://raw.githubusercontent.com/n-pillai/spinner-verbs-skill/main/example-verbs.json
+curl -o ~/nisha-spinner-verbs.json https://raw.githubusercontent.com/n-pillai/spinner-verbs-skill/master/example-verbs.json
 
 # Merge with your existing settings.json or create new one
 ```
@@ -114,7 +114,7 @@ Spinner verbs are configured in `~/.claude/settings.json`:
 
 ### Verbs Not Appearing
 
-There's a known issue (GitHub issue #23347) where `spinnerVerbs` in `~/.claude/settings.json` can sometimes be ignored. If your verbs don't appear:
+There was a bug (GitHub issue #23347, since closed) where `spinnerVerbs` in `~/.claude/settings.json` could be ignored. If your verbs don't appear on an older Claude Code version:
 
 1. Try placing them in a project-level settings file: `.claude/settings.json` within your project directory
 2. If using `append` mode doesn't work, try `replace` mode

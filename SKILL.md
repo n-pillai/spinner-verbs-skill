@@ -131,7 +131,7 @@ Include these with every delivered file:
 
 ### Known Issues
 
-There is an open bug (GitHub issue #23347) where `spinnerVerbs` in user-level `~/.claude/settings.json` can sometimes be ignored. If verbs don't appear:
+There was a bug (GitHub issue #23347, since closed) where `spinnerVerbs` in user-level `~/.claude/settings.json` could be ignored. If verbs don't appear on an older Claude Code version:
 - Try placing them in a project-level settings file: `.claude/settings.json` within your project directory
 - If using `append` mode and it's not working, try `replace` mode
 
